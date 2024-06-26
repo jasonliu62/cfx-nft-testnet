@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/yuhanliu/Desktop/NFT/cfx-nft-testnet/contracts/MyContract.sol": {
-      "lastModificationDate": 1719384137049,
-      "contentHash": "736a60ddafce553444d0932ffb664708",
+      "lastModificationDate": 1719394387242,
+      "contentHash": "d78bae955b3a3466bf0ac90cf6ee54d2",
       "sourceName": "contracts/MyContract.sol",
       "solcConfig": {
         "version": "0.8.24",
@@ -30,7 +30,8 @@
         }
       },
       "imports": [
-        "@openzeppelin/contracts/token/ERC721/ERC721.sol"
+        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
       ],
       "versionPragmas": [
         "^0.8.24"
@@ -452,6 +453,44 @@
       ],
       "artifacts": [
         "SignedMath"
+      ]
+    },
+    "/Users/yuhanliu/Desktop/NFT/cfx-nft-testnet/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1719382741660,
+      "contentHash": "d3c790edc9ccf808a17c5a6cd13614fd",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Ownable"
       ]
     }
   }
