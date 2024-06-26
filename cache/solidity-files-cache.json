@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/yuhanliu/Desktop/NFT/cfx-nft-testnet/contracts/MyContract.sol": {
-      "lastModificationDate": 1719383217982,
-      "contentHash": "8dc445acb5daf1f2fef316b8671c390d",
+      "lastModificationDate": 1719384137049,
+      "contentHash": "736a60ddafce553444d0932ffb664708",
       "sourceName": "contracts/MyContract.sol",
       "solcConfig": {
         "version": "0.8.24",
