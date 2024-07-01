@@ -5,7 +5,7 @@ async function main() {
     const KwolfNFT = await ethers.getContractFactory("KwolfNFT");
     const kwolfNFT = await KwolfNFT.attach(kwolfNFTAddress);
 
-    const tokenId = 1;
+    const tokenId = 2;
 
     const tokenURI = await kwolfNFT.tokenURI(tokenId);
     console.log("Token URI:", tokenURI);
