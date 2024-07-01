@@ -8,7 +8,7 @@ async function main() {
     const kwolfNFT = await KwolfNFT.attach(kwolfNFTAddress);
 
     const toAddress = deployer.address;
-    const tokenURI = "http://localhost:9998/metadata/1"
+    const tokenURI = "https://3066-27-115-116-186.ngrok-free.app/metadata/1"
 
     const tx = await kwolfNFT.mint(toAddress, tokenURI);
     const receipt = await tx.wait();
